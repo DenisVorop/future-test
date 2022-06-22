@@ -6,7 +6,7 @@ export const booksApi = async (query: string, selectedCategorie: string, selecte
             orderBy: selectedOrder,
             maxResults,
             startIndex,
-            key: 'AIzaSyB0GGAkIj-NufHqnmH3BR0Hys2rZEPFrTo',
+            key: '',
         },
     })
     return response
